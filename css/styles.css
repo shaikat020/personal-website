@@ -29,7 +29,7 @@ header a {
 }
 
 header a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 header button {
@@ -48,6 +48,7 @@ header button a{
 
 header button:hover {
     background: rgb(241, 241, 241);
+    
 }
 
 td {
@@ -74,7 +75,43 @@ td {
 
 .contact-btn:hover{
     background: rgb(241, 241, 241);
+    text-decoration: none;
 }
+
+/*Changing the main part*/
+.intro-table {
+   
+    border-collapse: collapse;
+    margin: 50px auto;   
+}
+.intro-text{
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 80px;
+
+}
+.intro-hello{
+    color:rgb(22, 134, 22);
+    font-size: 40px;
+    margin:0px;
+}
+
+.intro-subtitle, .intro-name {
+    color: rgb(4, 113, 4);
+    font-size: 36px;
+    margin:0;
+    font-weight: bold;
+}
+.intro-location {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.intro-image{
+    text-align: center;
+    vertical-align: middle;
+}
+
 
 /*Footer*/
 
