@@ -54,8 +54,31 @@ td {
     vertical-align: middle;
 }
 
+/*Home and skills*/
 .center {
     text-align: center;
+}
+/*Contact button*/
+.right {
+    text-align: right;
+}
+
+/*Footer*/
+
+footer {
+    background-color: rgb(106, 202, 106) ;
+    padding: 15px 30px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+footer td {
+    vertical-align: middle;
+}
+
+.left {
+    text-align: left;
 }
 
 .right {
