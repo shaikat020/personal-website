@@ -5,16 +5,19 @@
 
 body{
     background-color: rgb(17, 67, 125);
+    font-family: Arial, Helvetica, sans-serif;
 }
 header {
     background-color: rgb(9, 40, 45) ;
     padding: 15px 30px;
     border: 0px;
+    height: 07vh;
 }
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 
@@ -57,6 +60,11 @@ header button:hover {
 td {
     vertical-align: middle;
 }
+main{
+    height: 76vh;
+    text-align: center;
+
+}
 
 /*Home and skills*/
 .center {
@@ -82,11 +90,19 @@ td {
 }
 
 /*Changing the main part*/
-.intro-table {
+.hero {
    
     border-collapse: collapse;
-    margin: 50px auto;   
+    /* margin: 50px auto;    */
+   
+    
+
 }
+
+.intro-table {
+    padding-top: 50px;
+}
+
 .intro-text{
     vertical-align: middle;
     text-align: left;
@@ -125,16 +141,55 @@ footer {
     color: rgb(255, 255, 255);
     font-family: Arial, sans-serif;
     font-size: 14px;
+    height: 07vh;
+    
 }
 
 footer td {
     vertical-align: middle;
 }
+/*Created by part*/
 
 .left {
     text-align: left;
 }
+/*Copyright by part*/
 
 .right {
     text-align: right;
+}
+
+/*Skill page*/
+
+.skill-h1{
+    color:#ffffff;
+    padding: 20px;
+    font-size: 2rem;
+}
+
+.skill-h2{
+    text-align: center;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.skills-table{
+    color: rgb(255, 255, 255);
+    padding: 20px auto;
+    border-collapse: separate;
+    border-spacing: 15px;
+    border: none;
+}
+
+
+.skills-table td {
+    background-color: rgb(255, 255green, 255);
+    color: rgb(132, 162, 132);
+    border: 1px solid;
+    padding: 15px;
+    
+    justify-content: space-between;
+    align-items: center;
+    display: flexbox;
+
 }
