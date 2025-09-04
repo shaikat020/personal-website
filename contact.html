@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - My Website</title>
+    <title>Contact - My Website</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -34,11 +34,12 @@
         </nav>
     </header>
     <hr>
-    <table width="100%">
+    <main class="contact-main">
+        <table width="100%">
         <tr>
             <td width="60%">
                 <h1>Let's have a chat</h1>
-                <form>
+                <form method="POST" action="#">
                     <label>Name:</label><br>
                     <input type="text" name="name" placeholder="Major Gilbart"><br><br>
 
@@ -46,17 +47,19 @@
                     <input type="email" name="email" placeholder="Majorgilbart@gmail.com"><br><br>
 
                     <label>Message:</label><br>
-                    <input type="text" name="name" placeholder="Your message here"><br><br>
+                    <textarea rows="4" cols="40" name="message" placeholder="Type your message here..."></textarea><br><br>
                     
                     <input type="submit" value="Send">
                 </form>
             </td>
             <td width="40%" class="intro-image">
                 <section>
-                    <img src="images/Md_Tahsin_Azad_Shaikat.png" alt="Md. Tahsin Azad Shaikat" width="200px" height="200px">
+                    <img src="images/Md_Tahsin_Azad_Shaikat.png" alt="Md. Tahsin Azad Shaikat" width="200px" height="200px" id="shaikat">
                 </section>
             </td>
     </table>
+    </main>
+    
     <hr>
     <footer>
         <table width="100%">
