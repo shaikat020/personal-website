@@ -3,8 +3,11 @@
     padding: 0;
 }
 
+body{
+    background-color: rgb(17, 67, 125);
+}
 header {
-    background-color: rgb(106, 202, 106) ;
+    background-color: rgb(9, 40, 45) ;
     padding: 15px 30px;
     border: 0px;
 }
@@ -65,7 +68,7 @@ td {
 }
 .contact-btn {
     background: rgb(255, 255, 255);
-    color: rgb(106, 202, 106);
+    color: rgb(3, 18, 3);
     padding: 6px 15px;
     border-radius: 3px;
     text-decoration: none;
@@ -91,18 +94,19 @@ td {
 
 }
 .intro-hello{
-    color:rgb(22, 134, 22);
+    color:rgb(192, 198, 192);
     font-size: 40px;
     margin:0px;
 }
 
 .intro-subtitle, .intro-name {
-    color: rgb(4, 113, 4);
+    color:rgb(192, 198, 192);
     font-size: 36px;
     margin:0;
     font-weight: bold;
 }
 .intro-location {
+    color: rgb(132, 162, 132);
     font-size: 16px;
     margin-top: 10px;
 }
@@ -116,7 +120,7 @@ td {
 /*Footer*/
 
 footer {
-    background-color: rgb(106, 202, 106) ;
+    background-color: rgb(9, 40, 45) ;
     padding: 15px 30px;
     color: rgb(255, 255, 255);
     font-family: Arial, sans-serif;
