@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: rgb(17, 67, 125);
+    background-color: rgb(180, 172, 172);
     font-family: Arial, Helvetica, sans-serif;
 }
 header {
@@ -62,8 +62,6 @@ td {
 }
 main{
     height: 76vh;
-    
-
 }
 
 /*Home and skills*/
@@ -93,7 +91,7 @@ main{
 .hero {
    
     border-collapse: collapse;
-    /* margin: 50px auto;    */
+   
    
     
 
@@ -120,19 +118,19 @@ main{
 
 
 .intro-hello{
-    color:rgb(192, 198, 192);
+    color:rgb(34, 40, 34);
     font-size: 40px;
     margin:0px;
 }
 
 .intro-subtitle, .intro-name {
-    color:rgb(192, 198, 192);
+    color:rgb(48, 61, 48);
     font-size: 36px;
     margin:0;
     font-weight: bold;
 }
 .intro-location {
-    color: rgb(132, 162, 132);
+    color: rgb(35, 43, 35);
     font-size: 30px;
     margin-top: 10px;
 
@@ -172,21 +170,27 @@ footer td {
 
 /*Skill page*/
 
+
+
 .skill-h1{
-    color:#ffffff;
+    color:rgb(35, 28, 28);
     padding: 20px;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 0;
 }
 
 .skill-h2{
     text-align: center;
-    color: #ffffff;
-    text-decoration: underline;
-    margin-bottom: 30px;
+    color: rgb(35, 28, 28);
+    text-decoration: none;
+    margin-bottom: 40px;
+    font-size: 1.8rem;
+    font-weight: normal;
 }
 
 .skills-table{
-    color: rgb(255, 255, 255);
+    color: rgb(35, 28, 28);
     margin: 30px auto;
     border-collapse: separate;
     border-spacing: 15px;
@@ -196,11 +200,17 @@ footer td {
     padding: 30px;
     
 }
+.skills-table tr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
 
 
 .skills-table td {
-    background-color: rgb(79, 32, 197);
-    color: rgb(132, 162, 132);
+    background-color: rgb(167, 156, 196);
+    color: rgb(35, 66, 35);
     border: 1px solid rgba(106, 202, 188, 0.303);
     border-radius: 10px;
     font-weight: bold;
@@ -208,9 +218,16 @@ footer td {
     cursor:pointer;
     
     justify-content: space-between;
-    text-align: center;
-    display: flexbox;
-    transition: all 0.3s ease;
+    text-align: left;
+    width: 150px;
+    min-height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
 
 }
 
@@ -222,7 +239,15 @@ footer td {
 .contact-main h1{
     padding-bottom: 10px;
 }
+.contact-main form input,
+.contact-main form textarea {
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
 
+
+/*Images*/
 #shaikat{
     border-radius: 50%;
     border: 5px orange solid;
