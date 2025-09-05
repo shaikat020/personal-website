@@ -26,12 +26,12 @@ personal-website/
 ├── images/
 │ ├── Md_Tahsin_Azad_Shaikat.png
 │ ├── Screenshot.png
-└── README.md
+└── readme.md
 ```
 
 ## Author
 
 **Md Tahsin Azad Shaikat**
 
-Web developer focused on front-end, back-end, and Django, with supplementary skills in IoT and robotics.
+Web developer focused on front-end especially back-end which is Django framework, with basic skills in IoT and robotics.
 🔗 [LinkedIn](https://www.linkedin.com/in/mdtahsinazad020/)
