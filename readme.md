@@ -9,6 +9,14 @@ A simple webpage built with HTML, CSS
 
 - HTML5
 - CSS3
+- [FormSubmit](https://formsubmit.co) – third-party service for handling contact form submissions
+
+
+##  Contact Form Preview  
+
+Here’s how the contact form looks in the portfolio:  
+
+![Contact Form Screenshot](./images/contact_screenshot.png)
 
 ## Installation
 
